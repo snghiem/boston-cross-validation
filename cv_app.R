@@ -22,5 +22,5 @@ for (d in degree) # for polynomials to the power of 10
   cv.error[d] = k.fold(Boston, d)
 
 plot(degree, cv.error, type="b", col="maroon") # b for both line and point drawings
-  
-# polynomial of 6 seems to obtain the least MSE.
+which.min(cv.error)
+# polynomial of 5 seems to obtain the least MSE.

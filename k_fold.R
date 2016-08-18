@@ -15,4 +15,3 @@ cv.error = cv.glm(Boston, glm.fit, K=10) # 10-fold here
 
 # prediction error
 cv.error$delta[1]
-# perform better than validation approach and LOOCV for this example

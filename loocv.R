@@ -14,5 +14,4 @@ cv.error = cv.glm(Boston, glm.fit)
 
 # prediction error
 cv.error$delta[1]
-# perform better than validation approach
 
