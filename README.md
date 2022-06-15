@@ -1,7 +1,7 @@
 #boston-cross-validation.R
 
 This repository employs cross-validation on Boston's housing set. Plese note that
-the piont of cross-validation is not to predict on the validation set, but to
+the point of cross-validation is not to predict on the validation set, but to
 choose the best model out of model comparision.
 
 Leave-out-one-cross-validation (LOOCV) gives approximately unbiased estimates 
